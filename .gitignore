@@ -1,0 +1,14 @@
+# Configuración sensible (Contraseñas y URLs)
+.env
+
+# Datos persistentes de Docker (Base de datos y n8n)
+pg_data/
+postgres_data/
+n8n_data/
+
+# Respaldos locales
+backups/
+
+# Carpetas de desarrollo de Node.js (por si acaso)
+node_modules/
+.npm/

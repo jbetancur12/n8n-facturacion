@@ -1,4 +1,4 @@
 FROM docker.n8n.io/n8nio/n8n:latest
 USER root
-RUN npm install -g jszip
+RUN npm install -g jszip xml2js
 USER node
